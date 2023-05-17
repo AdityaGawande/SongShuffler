@@ -11,7 +11,7 @@ SongList = []
 
 for x in os.listdir(song_path):
     if x.endswith(".mp3"):
-        x = (song_path+'\\'+x)
+        x = (song_path+'/'+x)
         SongList.append(x)
 
 PlaylistEnd = len(SongList) - 1
